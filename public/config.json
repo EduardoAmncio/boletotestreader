@@ -1,0 +1,8 @@
+{
+  "api": {
+    "baseUrl": "https://osbcore.fitbank.com.br:9014",
+    "defaultHeaders": {
+      "ApiVersion": 1
+    }
+  }
+}
