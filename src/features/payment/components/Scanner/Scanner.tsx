@@ -49,7 +49,8 @@ const Scanner = (props: any) => {
         constraints: {
           width: { min: 450 },
           height: { min: 300 },
-          // facingMode: "environment",
+          //facingMode: "environment",
+          frequency: 2,
           deviceId: backCamId,
           aspectRatio: { min: 1, max: 2 }
         }
