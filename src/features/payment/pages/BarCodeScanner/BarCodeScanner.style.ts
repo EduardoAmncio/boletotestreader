@@ -26,10 +26,10 @@ export const useStyles = makeStyles({
       height: "100vh",
     },
     "& video": {
-    //   position: "absolute",
+      //   position: "absolute",
       top: 0,
       left: 0,
-      transform: "scaleX(-1)",
+      // transform: "scaleX(-1)",
     },
   },
 });

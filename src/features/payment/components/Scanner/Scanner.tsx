@@ -61,7 +61,7 @@ const Scanner = (props: any) => {
       numOfWorkers: 2,
       frequency: 10,
       decoder: {
-        readers: ["ean_reader"]
+        readers: ["code_128_reader"]
       },
       locate: true
     }, (err: any) => {
