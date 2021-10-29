@@ -62,8 +62,13 @@ export const BarCodeScanner: React.FC = () => {
   ]);
 
   const onDetected = (result: any) => {
-    console.log('test pass, you can read the code.');
-    alert("Identificado o codigo de barras.");
+    if (result.length > 43) {
+      console.log("-----------------------")
+      console.log('test pass, you can read the code.');
+      console.log(result);
+      console.log("-----------------------")
+      alert(result);
+    }
   };
 
   return (
