@@ -20,7 +20,7 @@ export const useStyles = makeStyles({
     padding: 0,
     overflow: "hidden",
     position: "relative",
-    transform: "rotate(90deg)",
+    //transform: "rotate(90deg)",
 
     "& #interactive.viewport canvas.drawingBuffer, video.drawingBuffer": {
       width: "100vh",
