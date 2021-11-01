@@ -47,22 +47,23 @@ const Scanner = (props: any) => {
       inputStream: {
         type: "LiveStream",
         constraints: {
-          width: { min: 450 },
-          height: { min: 300 },
+          width: 1920,//{ min: 450 }
+          height: 1080,//{ min: 300 }
           //facingMode: "environment",
-          frequency: 6,
+          frequency: 20,
           deviceId: backCamId,
-          aspectRatio: { min: 1, max: 2 }
+          aspectRatio: { min: 1, max: 4 },
         }
       },
+
       locator: {
-        patchSize: "small",
+        patchSize: "medium",
         halfSample: true
       },
       numOfWorkers: 2,
-      frequency: 2,
+      frequency: 20,
       decoder: {
-        readers: ["i2of5_reader"] //
+        readers: ["i2of5_reader"]
       },
       locate: true
     }, (err: any) => {
