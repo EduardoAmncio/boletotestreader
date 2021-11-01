@@ -56,8 +56,8 @@ const Scanner = (props: any) => {
         }
       },
       locator: {
-        patchSize: "large",
-        halfSample: false
+        patchSize: "small",
+        halfSample: true
       },
       numOfWorkers: 2,
       frequency: 2,
