@@ -46,6 +46,7 @@ const Scanner = (props: any) => {
     Quagga.init({
       inputStream: {
         type: "LiveStream",
+        locator: true,
         constraints: {
           width: 1920,//{ min: 450 }
           height: 1080,//{ min: 300 }
