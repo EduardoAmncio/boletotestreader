@@ -50,17 +50,17 @@ const Scanner = (props: any) => {
           width: { min: 450 },
           height: { min: 300 },
           //facingMode: "environment",
-          frequency: 2,
+          frequency: 6,
           deviceId: backCamId,
           aspectRatio: { min: 1, max: 2 }
         }
       },
       locator: {
-        patchSize: "medium",
-        halfSample: true
+        patchSize: "large",
+        halfSample: false
       },
       numOfWorkers: 2,
-      frequency: 10,
+      frequency: 2,
       decoder: {
         readers: ["i2of5_reader"] //
       },
